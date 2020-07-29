@@ -20,7 +20,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://mirrors.huaweicloud.com/repository/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -35,6 +35,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "IronPython": {
+              "target": "Package",
+              "version": "[2.7.10, )"
+            },
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
